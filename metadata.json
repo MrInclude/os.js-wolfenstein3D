@@ -1,0 +1,17 @@
+{
+  "className": "GameWolfenstein3d",
+  "name": "Wolfenstein3D",
+  "description": "Wolfenstein3D",
+  "names": {
+  "icon": "favicon.png",
+  "preload": ["main.js"],
+  "main": {
+    "webpack": ["main.js"]
+  },
+  "build": {
+    "copy": ["data"]
+  }
+}
+
+
+
